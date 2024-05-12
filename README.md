@@ -128,40 +128,21 @@ print("{:15}{:5}\t {}\n".format("Word", "True", "Pred"))
 print("-" *30)
 for w, true, pred in zip(X_test[i], y_true, p[0]):
     print("{:15}{}\t{}".format(words[w-1], tags[true], tags[pred]))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
 
 ## OUTPUT
 
-### Training Loss, Validation Loss Vs Iteration Plot
+### data.head(50):
+![image](https://github.com/praveenst13/named-entity-recognition/assets/118787793/9214de1b-6754-47e1-a627-3959986b31f8)
 
-Include your plot here
+### Training Loss, Validation Loss Vs Iteration Plot
+![image](https://github.com/praveenst13/named-entity-recognition/assets/118787793/d1f60773-71ff-4b24-bdbb-b0b86a822354)
+
+![image](https://github.com/praveenst13/named-entity-recognition/assets/118787793/12816ce3-b052-479a-913d-e65264607797)
+
 
 ### Sample Text Prediction
-Include your sample text prediction here.
+![image](https://github.com/praveenst13/named-entity-recognition/assets/118787793/3d851ada-9a64-4bb4-860a-343c47e229ef)
 
 ## RESULT
+Thus, an LSTM-based model (bi-directional) for recognizing the named entities in the text is developed Successfully.
